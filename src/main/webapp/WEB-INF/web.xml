@@ -12,4 +12,13 @@
     <servlet-name>CheckServlet</servlet-name>
     <url-pattern>/checkServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.salon.session.loginout.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+
 </web-app>
